@@ -1,0 +1,106 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+.banner .card {
+    background: #003333;
+    border: 1px solid #66CCFF;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px #66CCCC;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .card .heading {
+    display: flex;   
+    align-items: flex-end;
+    color: #99CCCC;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0.5vh;
+    padding: 5vw;
+}
+.banner .card .cn {
+    
+    border-radius: 20px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    padding-left: 30px;
+    width: 55vw;
+    height: 50vh;
+
+}
+.banner .card .btn {
+     width: 40vw;
+    height: 30vh;    
+    background: none;
+    border: none;
+    border-radius: 7px;
+    color: #35eea4;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-top: 2vh;
+    margin-bottom:5vh;
+    margin-right:3vw;  
+    padding-bottom: 10px;
+    padding-right: 40px; 
+    text-transform: uppercase;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+
+
+.banner .card .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 20px 0 #35eea4;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh; 
+}
+
+
+@media only screen and (max-width: 725px) {
+    .banner .card {
+        box-shadow: 0px 3px 20px 2px #663366;
+    }
+    .banner .card .cn {
+        width: 60vw;
+    }
+    .banner .card .btn {
+        width: 50vw;
+        height: 20vh;
+        font-family: "Istok Web", sans-serif;
+        color:#CCCCCC;
+        font-size: 1rem; 
+    }
+}
+
+.paragraph {
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 5vw 5vw 5vw 0;
+}
+
+.icon-group {
+    margin-top: 2vh;
+}
+
+.icon-group .icon {
+    margin-right: 10px;
+    width: 25px;
+}
